@@ -1,6 +1,6 @@
 // if3.rs
 //
-// Execute `rustlings hint if3` or use the `hint` watch subcommand for a hint.
+// 执行 `rustlings hint if3`，或使用 `hint` watch 子命令来获取提示。
 
 
 pub fn animal_habitat(animal: &str) -> &'static str {
@@ -14,7 +14,7 @@ pub fn animal_habitat(animal: &str) -> &'static str {
         0
     };
 
-    // DO NOT CHANGE THIS STATEMENT BELOW
+    // 不要修改下面这段代码
     let habitat = if identifier == 1 {
         "Beach"
     } else if identifier == 2 {

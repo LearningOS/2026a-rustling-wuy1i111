@@ -1,12 +1,11 @@
 // variables4.rs
 //
-// Execute `rustlings hint variables4` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint variables4`，或使用 `hint` watch 子命令来获取提示。
 
 
 fn main() {
     let mut x = 3;
     println!("Number {}", x);
-    x = 5; // don't change this line
+    x = 5; // 不要修改这一行
     println!("Number {}", x);
 }

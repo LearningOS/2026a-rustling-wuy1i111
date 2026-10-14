@@ -1,11 +1,10 @@
 // variables2.rs
 //
-// Execute `rustlings hint variables2` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint variables2`，或使用 `hint` watch 子命令来获取提示。
 
 
 fn main() {
-    let x = 10;
+    let x :i32= 10;
     if x == 10 {
         println!("x is ten!");
     } else {
